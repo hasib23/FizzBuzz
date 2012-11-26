@@ -14,7 +14,10 @@ namespace FizzBuzz
 			Console.WriteLine("------------------- FIzzBuzz---------------------");
 			 for(int i = 1; i <=100; i++)
 			{
-				Console.Write(i + "\n");
+				if(i % 3 == 0)
+				{
+					Console.Write(i+" Fizz" + "\n");
+				}
 			}
 			Console.ReadLine();
 		}
