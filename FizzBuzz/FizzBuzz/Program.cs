@@ -12,7 +12,10 @@ namespace FizzBuzz
 		static void Main(string[] args)
 		{
 			Console.WriteLine("------------------- FIzzBuzz---------------------");
-			 
+			 for(int i = 1; i <=100; i++)
+			{
+				Console.Write(i + "\n");
+			}
 			Console.ReadLine();
 		}
 
